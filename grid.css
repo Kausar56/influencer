@@ -1,0 +1,24 @@
+/* grid style  */
+
+
+/* mobile phone responsive  */
+
+
+@media screen and (max-width:576px) {
+       .partner{
+        flex-direction: column;
+       }
+       .banner-container{
+        flex-direction: column;
+       }
+
+       .container{
+        flex-direction: column;
+       }
+       .Collection{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+       }
+
+
+}
